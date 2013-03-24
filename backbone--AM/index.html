@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset='utf-8'>
+   <title>Introduccion a Blackbone.js + Mustache.js</title>
+</head>
+<body>
+
+   <script type="text/template" id="ficha_template">
+<div class="fichaCliente">
+<div class="campo"><div class="nombreCampo">Nombre:</div><%=nombre%></div>
+
+<div class="campo"><div class="nombreCamo">Apellidos:</div><%=apellidos%></div>
+</div>
+
+<div class="close">ggggggggggggg</div>
+
+</script>
+
+   <script type="text/javascript" src="lib/jquery-1.8.0.min.js"></script>
+   <script type="text/javascript" src="lib/json2.js"></script>
+   <script type="text/javascript" src="lib/underscore-min.js"></script>
+   <script type="text/javascript" src="lib/backbone.js"></script>
+   <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
